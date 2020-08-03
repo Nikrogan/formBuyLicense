@@ -28,7 +28,7 @@ p {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: white;
+    background: #f8f8f8;
     padding: 12px;
     height: 100%;
 }
@@ -38,9 +38,10 @@ p {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    border: 1px solid white;
 }
 
-.license__type--inner.active {
+.license__type--inner.license__type-active {
     background: #ebf4f7;
     border: 1px solid #cbe2ea;
 }

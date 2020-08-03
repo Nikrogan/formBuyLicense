@@ -12,21 +12,37 @@
                 <div class="license__type--wrapper">
                     <label for="license__type-1" class="license__type--inner">
                         <span class="license__type-box">
-                            <input type="radio" name="license__type" id="license__type-1" class="license__type">
+                            <input type="radio"
+                                   name="license__type"
+                                   id="license__type-1"
+                                   data-licence-price="13"
+                                   data-licence-id="1"
+                                   class="license__type">
                             <p class="license__type--text">licenceplan #1</p>
                         </span>
                         <p class="license__type--price">$13 per license</p>
                     </label>
                     <label for="license__type-2" class="license__type--inner">
                         <span class="license__type-box">
-                            <input type="radio" name="license__type" id="license__type-2" class="license__type">
+                            <input type="radio"
+                                   name="license__type"
+                                   id="license__type-2"
+                                   data-licence-price="22"
+                                   data-licence-id="2"
+                                   class="license__type">
                             <p class="license__type--text">licenceplan #2</p>
                         </span>
                         <p class="license__type--price">$22 per license</p>
                     </label>
-                    <label for="license__type-3" class="license__type--inner active">
+                    <label for="license__type-3" class="license__type--inner license__type-active">
                         <span class="license__type-box">
-                            <input type="radio" name="license__type" id="license__type-3" class="license__type">
+                            <input type="radio"
+                                   name="license__type"
+                                   id="license__type-3"
+                                   data-licence-price="34"
+                                   data-licence-id="3"
+                                   checked="checked"
+                                   class="license__type">
                             <p class="license__type--text">licenceplan #3</p>
                         </span>
                         <p class="license__type--price">$34 per license</p>
@@ -35,11 +51,11 @@
                     <div class="license__type--list-box">
                         <p>Number of licenses:</p>
                         <select name="license__type--list" class="license__type--list">
-                        <option value="10">10</option>
-                        <option value="30">30</option>
-                        <option value="60">60</option>
-                        <option value="180">180</option>
-                    </select>
+                            <option selected value="10">10</option>
+                            <option value="30">30</option>
+                            <option value="60">60</option>
+                            <option value="180">180</option>
+                        </select>
                     </div>
                     <span class="license__line"></span>
                     <div class="license__buy">
@@ -49,7 +65,7 @@
                         </div>
 
                         <button class="license__buy-btn">buy now</button>
-                        <p class="license__buy-text-primary">Selected plan: </p>
+                        <p class="license__buy-text-primary">Selected plan: # </p>
                     </div>
                 </div>
             </form>
