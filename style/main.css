@@ -89,6 +89,7 @@ p {
     align-items: center;
     justify-content: center;
     margin-right: 10px;
+    padding: 10px 0;
 }
 
 .license__type--list {
@@ -102,6 +103,7 @@ p {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 35px;
 }
 
 .license__buy-btn {
@@ -111,10 +113,12 @@ p {
     border-radius: 22px;
     border: none;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .license__buy-inner {
     display: flex;
+    margin-bottom: 10px;
 }
 
 .license__buy-text {
@@ -129,4 +133,9 @@ p {
 
 .license__buy-text-primary {
     color: #559bb6;
+}
+
+.license__line {
+    margin-top: 10px;
+    border: 1px solid #dadada;
 }
