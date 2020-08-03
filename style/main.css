@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+p {
+    margin: 0;
+}
+
+.license__modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+
+.license__modal--form {
+    width: 450px;
+    height: 450px;
+    padding: 5px;
+    background: #c4c4c4;
+}
+
+.license__type--wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: white;
+    padding: 12px;
+    height: 100%;
+}
+
+.license__type--inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.license__type--inner.active {
+    background: #ebf4f7;
+    border: 1px solid #cbe2ea;
+}
+
+.license__type {
+    -webkit-appearance: none;
+    width: 22px;
+    height: 22px;
+    border: 2px solid #dadada;
+    border-radius: 22px;
+    margin-right: 20px;
+}
+
+.license__type:checked {
+    position: relative;
+    border: 2px solid #34648e;
+}
+
+.license__type:checked:before {
+    content: "";
+    background: #0294bf;
+    width: 12px;
+    height: 12px;
+    border-radius: 22px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+
+.license__type-box {
+    display: flex;
+    align-items: center;
+}
+
+.license__type--text {
+    text-transform: uppercase;
+}
+
+.license__type--price {
+    color: #797979;
+    font-size: 14px;
+}
+
+.license__type--list-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.license__type--list {
+    margin-left: 10px;
+    padding: 5px;
+    border: 2px solid #8bade4;
+    border-radius: 5px;
+}
+
+.license__buy {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.license__buy-btn {
+    color: white;
+    background: #33a845;
+    padding: 9px 30px;
+    border-radius: 22px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.license__buy-inner {
+    display: flex;
+}
+
+.license__buy-text {
+    color: #827e79;
+    text-transform: uppercase;
+}
+
+
+.license__buy-text-accent {
+    color: #4b95b1;
+ }
+
+.license__buy-text-primary {
+    color: #559bb6;
+}

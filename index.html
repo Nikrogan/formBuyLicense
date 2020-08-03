@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Тестовое задание</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+<main class="main">
+    <div class="license__modal">
+            <form action="#" class="license__modal--form">
+                <div class="license__type--wrapper">
+                    <label for="license__type-1" class="license__type--inner">
+                        <span class="license__type-box">
+                            <input type="radio" name="license__type" id="license__type-1" class="license__type">
+                            <p class="license__type--text">licenceplan #1</p>
+                        </span>
+                        <p class="license__type--price">$13 per license</p>
+                    </label>
+                    <label for="license__type-2" class="license__type--inner">
+                        <span class="license__type-box">
+                            <input type="radio" name="license__type" id="license__type-2" class="license__type">
+                            <p class="license__type--text">licenceplan #2</p>
+                        </span>
+                        <p class="license__type--price">$22 per license</p>
+                    </label>
+                    <label for="license__type-3" class="license__type--inner active">
+                        <span class="license__type-box">
+                            <input type="radio" name="license__type" id="license__type-3" class="license__type">
+                            <p class="license__type--text">licenceplan #3</p>
+                        </span>
+                        <p class="license__type--price">$34 per license</p>
+                    </label>
+                    <hr>
+                    <div class="license__type--list-box">
+                        <p>Number of licenses:</p>
+                        <select name="license__type--list" class="license__type--list">
+                        <option value="10">10</option>
+                        <option value="30">30</option>
+                        <option value="60">60</option>
+                        <option value="180">180</option>
+                    </select>
+                    </div>
+                    <hr>
+                    <div class="license__buy">
+                        <div class="license__buy-inner">
+                            <p class="license__buy-text">total: </p>
+                            <p class="license__buy-accent">$340us</p>
+                        </div>
+
+                        <button class="license__buy-btn">buy now</button>
+                        <p class="license__buy-text-primary">Selected plan: </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+</main>
+<script src="js/main.js"></script>
+</body>
+</html>
