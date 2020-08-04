@@ -10,6 +10,16 @@ p {
     margin: 0;
 }
 
+/* Fonts */
+
+@font-face {
+    font-family: "Bebas Regular";
+    src: url("../fonts/BebasNeueRegular.woff2") format("woff2"),
+    url("../fonts/BebasNeueRegular.woff") format("woff");
+}
+
+/* Fonts end */
+
 .license__modal {
     display: flex;
     justify-content: center;
@@ -38,7 +48,7 @@ p {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    border: 1px solid white;
+    border: 1px solid #f8f8f8
 }
 
 .license__type--inner.license__type-active {
@@ -77,6 +87,7 @@ p {
 }
 
 .license__type--text {
+    font-family: "Bebas Regular", sans-serif;
     text-transform: uppercase;
 }
 
@@ -119,16 +130,23 @@ p {
 
 .license__buy-inner {
     display: flex;
+    align-items: center;
     margin-bottom: 10px;
+}
+
+.license__buy-accent {
+    color: #3b8cac;
 }
 
 .license__buy-text {
     color: #827e79;
     text-transform: uppercase;
+    padding-top: 3px;
 }
 
 
 .license__buy-text-accent {
+    font-family: "Bebas Regular", sans-serif;
     color: #4b95b1;
  }
 

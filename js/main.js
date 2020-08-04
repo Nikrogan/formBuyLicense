@@ -29,7 +29,7 @@ function ready() {
 
 
     function update() {
-        $total.innerHTML       = `$${ type.price * amount }us`;
+        $total.innerHTML       = `$${ type.price * amount }<sup>us</sup>`;
         $currentPlan.innerHTML = `Selected plan: #${type.id}`;
     }
 
