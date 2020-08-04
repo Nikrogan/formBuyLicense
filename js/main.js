@@ -9,8 +9,8 @@ function ready() {
 
     // default values
     let type             = {
-        price: 0,
-        id: 0
+        price: 34,
+        id: 3
     };
     let amount           = $amount.value;
 
