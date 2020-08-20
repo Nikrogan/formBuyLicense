@@ -1,5 +1,5 @@
 Тестовое задание - калькулятор. Сделан с использованием следующих технологий: <br>
-html, css, vanila.js<br>
+<b>html, css, vanila.js</b><br>
 __________________________
 
 GitPages - https://nikrogan.github.io/formBuyLicense/
