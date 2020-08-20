@@ -1,5 +1,3 @@
-"# formBuyLicense" <br>
-
 GitPages - https://nikrogan.github.io/formBuyLicense/
 __________________________
 
